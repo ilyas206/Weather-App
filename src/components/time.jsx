@@ -1,0 +1,9 @@
+export default function Time() {
+    const PRIMARY = '#0b749a'
+
+    return(
+        <>
+            <svg style={{width : "1.3rem", height : "1.3rem", fill : PRIMARY, marginTop : "2px"}} className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1phnduy" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M16 16c-.39.39-1.02.39-1.41 0l-3.29-3.29c-.19-.19-.3-.44-.3-.71V8c0-.55.45-1 1-1s1 .45 1 1v3.59l3 3c.39.39.39 1.02 0 1.41"></path></svg>
+        </>
+    )
+}
