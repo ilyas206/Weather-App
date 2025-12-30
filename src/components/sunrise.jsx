@@ -3,7 +3,7 @@ export default function Sunrise() {
 
     return(
         <>
-            <i className="bi bi-sunrise-fill" style={{fontSize : '2.7rem', color : PRIMARY}}></i>
+            <i className="text-9xl/4 bi bi-sunrise-fill" style={{fontSize : '2.7rem', color : PRIMARY}}></i>
         </>
     )
 }

@@ -84,17 +84,17 @@ export default function SearchBar() {
     }
 
     return(
-        <Form className="search-form">
+        <Form className="flex items-center mt-3 mx-4 mb-0 gap-2">
             <Autocomplete 
-                className="search-input" 
+                className="w-[95%] bg-[#ffffff40] backdrop-blur-sm rounded-md" 
                 clearOnBlur={false}
                 onChange={handleAutocompleteSelect}
                 getOptionLabel={(option) => option.formatted}
                 renderInput={(params) => 
                     <TextField onChange={handleInputChange} {...params} placeholder="Enter your city..." variant="outlined" />} 
                 options={cities}/>  
-            <Button sx={{background : '#e3f8ffd1'}} onClick={() => getGeoLocation()}>
-                <Location color='#31a1caff' width="2.5rem" height="2.5rem"/>
+            <Button sx={{background : '#a0c4d278'}} onClick={() => getGeoLocation()}>
+                <Location/>
             </Button>     
         </Form>
     )

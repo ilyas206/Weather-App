@@ -3,7 +3,7 @@ export default function Sunset() {
 
     return(
         <>
-            <i className="bi bi-sunset-fill" style={{fontSize : '2.7rem', color : PRIMARY}}></i>
+            <i className="text-9xl/4 bi bi-sunset-fill" style={{fontSize : '2.7rem', color : PRIMARY}}></i>
         </>
     )
 }
